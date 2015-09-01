@@ -1,0 +1,20 @@
+# Value (JSON primitive)
+#   string
+#   number
+#   boolean
+#   null
+
+Attribute (really an Entity)
+  {
+    key => Value or Collection
+  }
+
+Entity:
+  {
+    Attribute(s)
+  }
+
+Collection:
+  [
+    Entit(y|ies)
+  ]

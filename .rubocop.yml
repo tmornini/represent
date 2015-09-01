@@ -1,0 +1,65 @@
+AllCops:
+  Include:
+    - '**/Gemfile'
+    - '**/Rakefile'
+    - '**/Guardfile'
+    - '**/config.ru'
+    - '**/*.gemspec'
+    - '**/*.rake'
+    - '**/*.rb'
+    - '**/*.spec'
+
+Lint/AmbiguousOperator:
+  Enabled: false
+
+Lint/AmbiguousRegexpLiteral:
+  Enabled: false
+
+Metrics/ClassLength:
+  CountComments: false
+  Max: 150
+
+Metrics/MethodLength:
+  CountComments: false
+  Max: 15
+
+Style/AlignHash:
+  Enabled: true
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle: table
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyLineBetweenDefs:
+  AllowAdjacentOneLineDefs: true
+
+Style/ExtraSpacing:
+  Enabled: false
+
+Style/MethodCalledOnDoEndBlock:
+  Enabled: false
+
+Style/MethodDefParentheses:
+  EnforcedStyle: require_no_parentheses
+
+Style/PredicateName:
+  Enabled: false
+
+Style/SignalException:
+  EnforcedStyle: semantic
+
+Style/SingleLineMethods:
+  Enabled: false
+
+Style/SpaceAroundOperators:
+  AllowForAlignment: true
+
+Style/SpaceInsideBrackets:
+  Enabled: false
+
+Style/SpaceInsideHashLiteralBraces:
+  EnforcedStyleForEmptyBraces: space
+
+Style/SpaceInsideParens:
+  Enabled: false
