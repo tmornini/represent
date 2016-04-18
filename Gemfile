@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'puma'
+gem 'rack'
+
 # not used in production
 gem 'awesome_print'
 gem 'guard'
